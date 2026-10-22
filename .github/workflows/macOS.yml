@@ -9,7 +9,7 @@ concurrency:
 
 jobs:
   machine:
-    runs-on: macos-15-intel
+    runs-on: macos-latest
     timeout-minutes: 435
     permissions:
       contents: write
